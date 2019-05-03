@@ -90,3 +90,46 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+  /* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (max-width: 576px) {
+  h1 {
+    color:black;
+    grid-column: 2/3;
+    margin: 3% auto;
+    border-bottom: 2px solid green(40, 177, 147);;
+  }
+  nav > a {
+    margin: 2% 1% 3%;
+    height: 10%;
+    width: 15%;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px; 
+    text-align: center;
+    border: 2px solid yellow;
+  }
+}
+
+/* Medium and up (Tablets) */
+@media (max-width: 768px) {h2 {
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-style: italic;
+}
+
+}
+
+/* Large and up (Desktops) */
+@media (max-width: 992px) {
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (max-width: 1200px) {
+
+}
