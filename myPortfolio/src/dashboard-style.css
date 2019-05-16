@@ -1,0 +1,17 @@
+calculator {
+    display: grid;
+    grid-area: 25%;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 15% 15% 15%;
+
+}
+greeting {display: grid; color: red; font-size: 0vmin;}
+
+clock{
+    color: gold;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 25% 25%;
+    max-width: 15;
+    max-height: 15;
+}
