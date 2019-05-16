@@ -1,7 +1,11 @@
-body{color: purple;
-    background-color:black;
-    }
-p{color:darkblue;
-    background-color: orange}
-    
-p1{color: light blue; background-color: lightblue}
+
+body {
+    background: yellow
+}
+p {
+    color: green
+}
+h1 {
+    color: purple
+}
+
