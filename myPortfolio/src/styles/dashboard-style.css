@@ -6,7 +6,7 @@ calculator {
     grid-template-rows: 15% 15% 15%;
 
 }
-greeting {display: grid; color: red; font-size: 0vmin;}
+greeting {display: grid; color: red;}
 
 clock{
     color: gold;
