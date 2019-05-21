@@ -1,0 +1,9 @@
+
+
+img {
+    display: grid;
+    grid-area: 70%;
+    background-size: 10%;
+    height: 10%;
+    width: 30%;
+}
