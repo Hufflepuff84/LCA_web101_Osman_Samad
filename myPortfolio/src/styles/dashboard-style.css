@@ -1,19 +1,19 @@
 
 calculator {
     display: grid;
-    grid-area: 25%;
-    grid-template-columns: 15% 15% 15%;
-    grid-template-rows: 15% 15% 15%;
-    border: 1px solid blue;
-
+    grid-area: 60;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 25% 25% 25%;
+    border: 5px solid blue;
+    border-block-width: 20%;
 }
 greeting {display: grid; color: red;}
 
 clock{
     color: gold;
     display: grid;
-    grid-template-columns: 25% 25%;
-    grid-template-rows: 25% 25%;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 15% 15% 15%;
     max-width: 15;
     max-height: 15;
     border-radius: 2px solid yellow;
