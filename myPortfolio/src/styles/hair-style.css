@@ -26,9 +26,18 @@ p {
 body {
     display: grid;
     grid-template-rows: 5% 50% 20%;
+    grid-area: 100%;
+    
+    width: 100%;
 }
 
 img {
 max-width: auto;
-height: 300%;  
+height: 300%;
+justify-content: center;
+margin: auto auto;  
+}
+
+nav {
+    width: 100%;
 }
