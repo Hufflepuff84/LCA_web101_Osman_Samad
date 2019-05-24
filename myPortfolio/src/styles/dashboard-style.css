@@ -4,11 +4,33 @@ greeting {
   * {
       box-sizing: border-box;
     }
-    body {
+    /*body {
       background: #F6F6F6;
       padding-bottom: 30px;
       padding-top: 30px;
+    }/*/
+
+    body {
+      align-items: center;
+      height: 100vh;
     }
+.calender {
+  width: 300px;
+  height: auto;
+  background: #fff;
+  box-sizing: border-box;
+  }
+
+  .calender .date{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+
+
+  }
+
     .calculator{
       
       max-width: 400px;
