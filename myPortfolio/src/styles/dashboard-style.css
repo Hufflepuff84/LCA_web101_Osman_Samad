@@ -151,7 +151,9 @@ greeting {
 
   @media(max-width: 576px)
 {
-  
+  .is-clear {
+    background: blue;
+  }
 }
 
 .calculatorContainer {
