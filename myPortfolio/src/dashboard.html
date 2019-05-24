@@ -7,9 +7,10 @@
     <title>Dashboard</title>
 </head>
 <body>
-<greeting>Hi, Welcome To My Dashboard!</greeting>
-  <h1>Calculator:</h1>
 
+  <div class="calculatorContainer"><greeting class="greeting">Hi, Welcome To My Dashboard!</greeting><h1>Calculator:</h1>
+  
+    
 <div class="calculator">
 <input type="number" placeholder="0">
   <div class="calculator-buttons">
@@ -30,12 +31,18 @@
       <button class="calc-button is-zero">0</button>
       <button class="calc-button is-equals">&equals;</button>
     </div></div>
-
+</div>
+<div class="Clockcontainer">
 <h1>Clock:</h1>
   <p>12:35:54</p>
-  
-<h1>Calender:</h1>
+  </div>
+<div class="Calendercontainer">
+  <h1>Calender:</h1>
   <div class="calender">
+    <div class="image">
+      <h2>15, Sunday</h2>
+      <h3>May | 2019</h3>
+    </div>
     <div class="date">
       <div class="day">S</div>
       <div class="day">M</div>
@@ -58,7 +65,7 @@
       <div class="number">12</div>
       <div class="number">13</div>
       <div class="number">14</div>
-      <div class="number">15</div>
+      <div class="number active">15</div>
       <div class="number">16</div>
       <div class="number">17</div>
       <div class="number">18</div>
@@ -74,9 +81,11 @@
       <div class="number">28</div>
       <div class="number">29</div>
       <div class="number">30</div>
-
-
-
-
+      </div></div>
+  </div>    
+  <div class="Todolistcontainer">
+  <h1>To Do List:</h1>
+  <p>wake up, eat, go to class, study, sleep, repeat</p>
+</div>
 </body>
 </html>
