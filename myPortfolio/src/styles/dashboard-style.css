@@ -1,177 +1,177 @@
 greeting {
-    display: grid; color: red;
-  }
-  * {
-      box-sizing: border-box;
-    }
-    /*/body {
-      background: #F6F6F6;
-      padding-bottom: 30px;
-      padding-top: 30px;
-    }/*/
-
-  
-
-    body {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-around;
-      height: auto;
-      width: auto;
-      background: url(/myPortfolio/src/Images/dashboard\ image.jpg)
-      
-    }
-.calender {
-  width: 300px;
-  height: auto;
-  background: grey;
-  box-sizing: border-box;
-  box-shadow: 0 5px 50px rgba(0,0,0,.5);
-  }
-
-  .calender .image{
-    width: 100%;
-    height: 200px;
-    background: orange;
-    /*/background-size: cover;
-    padding: 20px;
-    box-sizing: border-box;/*/
-  }
-
-  .calender .image h2,
-  .calender .image h3
-  {
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-shadow: 0 2px 2px rgba(0,0,0,.2);
-  }
-
-  .calender .image h3{
-    font-weight: 500;
-  }
-
-  .calender .date{
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
-    grid-gap: 10px;
+  display: grid; color: red;
+}
+* {
     box-sizing: border-box;
   }
+  /*/body {
+    background: #F6F6F6;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }/*/
 
-  .calender .date div{
+
+
+  body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25px;
-    color: #262626;
-  }
-
-  .calender .date div.day
-  {
-    font-weight: 700;
-  }
-
-  .calender .date div.day:first-child,
-  .calender .date div.number:nth-child(7n + 1)
-  {
-      color: #ff685d;
-      font-weight: 700;
-  }
-
-  .calender .date div.number.active,
-  .calender .date div.number:hover
-  {
-    background: #009688;
-    color: #fff;
-    font-weight: 700;
-    cursor: pointer;
-  }
-
-    .calculator{
-      
-      max-width: 400px;
-      margin: 10 auto;
-      border: 2px solid white;
-      border-radius: 5px;
-    }
-    .calculator input {
-      background: none;
-      border: none;
-      box-shadow: none;
-      width: 100%;
-      border-bottom: 2px solid white;
-      padding: 20px;
-      text-align: right;
-      font-size: 40px;
-    }
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    background: black;
     
-    .calculator-buttons {
-      padding: 20px;
-      display: grid;
-      grid-template: repeat(5, 1fr) / repeat(4, 1fr);
-      grid-gap: 15px;
-    }
-    .calc-button {
-      background: rgba(0, 0, 0, 0.5);
-      border: 1px solid #111;
-      padding: 20px;
-      color: #EEE;
-      border-radius: 5px;
-      font-size: 22px;
-      cursor: pointer;
-      }
-    .is-clear,
-    .is-zero {
-      grid-column: span 3;
-    }
-    
-    .is-clear {
-      background: blue;
-    }
-    
-    .is-equals {
-      background: red;
-    }
-  
-  .clock{
-      color: blue;
-      width: 50px;
-      height: 50px;
-      border-radius: 50px;
   }
+.calender {
+width: 300px;
+height: auto;
+background: grey;
+box-sizing: border-box;
+box-shadow: 0 5px 50px rgba(0,0,0,.5);
+}
 
-  h1 {
-    color: white;
-  }
+.calender .image{
+  width: 100%;
+  height: 200px;
+  background: orange;
+  /*/background-size: cover;
+  padding: 20px;
+  box-sizing: border-box;/*/
+}
 
-  p {
-    color: white;
-  }
-
-  @media(max-width: 576px)
+.calender .image h2,
+.calender .image h3
 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0,0,0,.2);
+}
+
+.calender .image h3{
+  font-weight: 500;
+}
+
+.calender .date{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+
+.calender .date div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  color: #262626;
+}
+
+.calender .date div.day
+{
+  font-weight: 700;
+}
+
+.calender .date div.day:first-child,
+.calender .date div.number:nth-child(7n + 1)
+{
+    color: #ff685d;
+    font-weight: 700;
+}
+
+.calender .date div.number.active,
+.calender .date div.number:hover
+{
+  background: #009688;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+  .calculator{
+    
+    max-width: 400px;
+    margin: 10 auto;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .calculator input {
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    text-align: right;
+    font-size: 40px;
+  }
+  
+  .calculator-buttons {
+    padding: 20px;
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+  .calc-button {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #111;
+    padding: 20px;
+    color: #EEE;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    }
+  .is-clear,
+  .is-zero {
+    grid-column: span 3;
+  }
+  
   .is-clear {
     background: blue;
   }
+  
+  .is-equals {
+    background: red;
+  }
+
+.clock{
+    color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+@media(max-width: 576px)
+{
+.is-clear {
+  background: blue;
+}
 }
 
 .calculatorContainer {
-  
+
 }
 
 .greeting {
-  margin-bottom: 15px;
+margin-bottom: 15px;
 }
 
 .Clockcontainer {
-  margin-top: 20px;
+margin-top: 20px;
 }
 
 .Calendercontainer {
-  margin-top: 20px;
+margin-top: 20px;
 }
 
 .Todolistcontainer {
-  margin-top: 20px;
+margin-top: 20px;
 }
