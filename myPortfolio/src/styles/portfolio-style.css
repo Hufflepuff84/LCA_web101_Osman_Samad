@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: green;
     display: flex;
@@ -12,4 +13,8 @@ body {
 
 header {
     text-color: purple;
+=======
+nav {
+    display: grid;
+>>>>>>> 71aa7f694459762aa92b19975796b8ec1963f948
 }
