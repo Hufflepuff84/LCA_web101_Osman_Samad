@@ -1,0 +1,15 @@
+body {
+    background: green;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+ 
+}
+
+@media(max-width: 576px)
+
+header {
+    text-color: purple;
+}
