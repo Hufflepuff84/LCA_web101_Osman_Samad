@@ -1,0 +1,12 @@
+body {
+    height: auto;
+    width: auto;
+}
+
+@media(max-width: 576px)
+
+element.style {
+    width: 100%;
+    margin-top: 18px;
+    color: red;
+}
