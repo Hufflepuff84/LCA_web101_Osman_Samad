@@ -1,7 +1,12 @@
 body {
-    font-family: cursive;
+    background: purple;
+    color: goldenrod;
+    max-width: auto;
+    height: auto;
 }
 
-h1 {
-    font-family: cursive;
+img {
+    height: 200px;
 }
+
+@media(max-width: 576px)
