@@ -15,3 +15,8 @@ video {
 iframe {
     width: auto;
 }
+nav {
+    display: flex;
+    word-spacing: 10px;
+
+}
