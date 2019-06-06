@@ -17,3 +17,8 @@
 .placeMarker {
     size: 100px;
 }
+
+body{
+    background: yellow;
+    color: purple;
+}
