@@ -1,5 +1,7 @@
-#container:hover{
-    background: white;
+body {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
 
 main {
