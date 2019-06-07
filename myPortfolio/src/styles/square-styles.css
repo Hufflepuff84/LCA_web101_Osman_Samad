@@ -1,0 +1,64 @@
+#container:hover{
+    background: yellow;
+}
+.box:hover{
+  
+  height: 100px;
+  width: 100px;
+  duration: 10s;
+  transform: rotate(270deg);
+}
+    
+
+    
+
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin-left: 47%;
+    margin-right: 50%;
+}
+
+#box1{
+    background: red;
+}
+
+#box2{
+    background: blue;
+}
+
+#box3{
+    background: green;
+}
+
+#box4{
+    background: purple;
+}
+
+#box5{
+    background: orange;
+}
+#box6{
+    background: yellow;
+}
+#box7{
+    background: teal;
+}
+
+#box8{
+    background: salmon;
+}
+#box9{
+    background: magenta;
+}
+#box10{
+    background: violet;
+}
+#box11{
+    background: maroon; 
+}
+#box12{
+    background: black;
+}
