@@ -1,64 +1,114 @@
-#container:hover{
-    background: yellow;
+body {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
-.box:hover{
-  
-  height: 100px;
-  width: 100px;
-  duration: 10s;
-  transform: rotate(270deg);
+
+main {
+    display: inline-block;
+    margin: auto;
+
 }
-    
 
-    
-
-
-.box {
-    height: 50px;
+.square {
     width: 50px;
+    height: 50px;
     border: 1px solid black;
-    margin-left: 47%;
-    margin-right: 50%;
+    position: relative;
 }
 
-#box1{
-    background: red;
+.one {
+    background-color: red;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: green;
+}
+.four {
+    background-color: yellow;
+}
+.five {
+    background-color:orange;
+}
+.six {
+    background-color: teal;
+}
+.seven {
+    background-color: purple;
+}
+.eight {
+    background-color: maroon;
+}
+.nine {
+    background-color: magenta;
+}
+.ten {
+    background-color: pink;
+}
+.eleven {
+    background-color: skyblue;
+}
+.twelve {
+    background-color: navy;
 }
 
-#box2{
-    background: blue;
+.go {
+    width: 100px;
+    margin: auto;
 }
 
-#box3{
-    background: green;
+.large { 
+    animation: large 3s ease-in-out .2s 1 forwards;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
 }
 
-#box4{
-    background: purple;
+.mouse:hover .large { 
+    animation-play-state: running;
+
+}
+/* name duration timing delay count direction */
+
+@keyframes large {
+    0% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(1); 
+    }
+    20% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(2); 
+    }
+    100% {
+        left:500px; top:0px;
+        transform: rotate(360deg) scale(2); 
+    }
 }
 
-#box5{
-    background: orange;
-}
-#box6{
-    background: yellow;
-}
-#box7{
-    background: teal;
+.small { 
+    animation: small 3s ease-in-out .2s 1 forwards;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
 }
 
-#box8{
-    background: salmon;
+.mouse:hover .small { 
+    animation-play-state: running;
 }
-#box9{
-    background: magenta;
-}
-#box10{
-    background: violet;
-}
-#box11{
-    background: maroon; 
-}
-#box12{
-    background: black;
+
+/* name duration timing delay count direction */
+
+@keyframes small {
+    0% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(.5); 
+    }
+    100% {
+        left:-500px; top:0px;
+        transform: rotate(-360deg) scale(.5); 
+    }
 }
