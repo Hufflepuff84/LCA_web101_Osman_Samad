@@ -1,0 +1,24 @@
+#container {
+    width: 500px; 
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+     
+}
+
+.box {
+    height: 160px;
+    width: 160px;
+    border: 1px solid black;
+    font-size: 100px;
+    text-align: center;
+}
+
+.placeMarker {
+    size: 100px;
+}
+
+body{
+    background: yellow;
+    color: purple;
+}
