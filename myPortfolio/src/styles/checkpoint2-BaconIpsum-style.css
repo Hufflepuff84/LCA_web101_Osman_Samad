@@ -1,5 +1,10 @@
 body{
     font-family: 'Oswald', sans-serif;
+    background-image: url(https://wallpapercave.com/wp/dwwIVzJ.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    height: auto;
+    width: auto;
 }
 .header{
     width: 100%;
@@ -35,22 +40,13 @@ div {
     padding-right: 0;
 
 }/*/
-.navigation a li{
-    displaY: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    color: white;
-    font-family: 'Montserrat';
-    font-size: 16px;
-}
-body {
-    
-    background-image: url(https://wallpapercave.com/wp/dwwIVzJ.jpg);
-    background-repeat: repeat;
-    background-size: 100%;
-    height: auto;
-    width: auto;
-}
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 16px;}
   
   .logo {
     width: 30%;
