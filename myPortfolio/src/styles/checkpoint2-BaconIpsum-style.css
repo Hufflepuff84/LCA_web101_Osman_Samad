@@ -137,6 +137,22 @@ body {
     font-style: italic;
     animation-duration: 3s;
   }
+
+  h3 {
+    color: yellow;
+  }
+
+  .article1 {
+    color: red;
+  }
+
+  .article2 {
+    color: blue;
+  }
+
+  .article3 {
+    color: green;
+  }
   .disappear{
     animation-name: example;
     animation-duration: 8s;
@@ -150,4 +166,13 @@ body {
     100% {visibility: hidden;}  
   }
   
-  
+  @media (min-width: 576px) {
+    html, body {
+        
+    }
+
+
+@media (min-width: 992px) {
+    html {
+    }
+
