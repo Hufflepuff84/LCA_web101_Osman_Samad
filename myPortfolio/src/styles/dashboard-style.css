@@ -18,7 +18,7 @@ greeting {
     justify-content: space-around;
     height: auto;
     width: auto;
-    background: black;
+    background: grey;
     
   }
 .calender {
@@ -178,4 +178,8 @@ margin-top: 20px;
 
 a{
 color: yellow;
+}
+
+img {
+  max-width: 200px;
 }
